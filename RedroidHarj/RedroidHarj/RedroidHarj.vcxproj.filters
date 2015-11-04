@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <AndroidBuild Include="..\..\..\..\..\..\..\NVPACK\android-ndk-r10e\samples\hello-gl2\AndroidManifest.xml" />
+    <AndroidBuild Include="..\..\..\..\..\..\..\NVPACK\android-ndk-r10e\samples\hello-gl2\default.properties" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="jni">
+      <UniqueIdentifier>{77daef73-9e4b-402e-b17e-e17bcaab2076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{d4a41da0-857f-4d24-8a81-14338ba6f325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\values">
+      <UniqueIdentifier>{49986009-4cc6-444c-8f87-3b1b1a842f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{98c1bf95-a5e8-4625-b31e-83f7b8c0c8f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\com">
+      <UniqueIdentifier>{3cca4569-59a8-4764-a606-2de61a4a335b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\com\android">
+      <UniqueIdentifier>{b6a059d2-35ad-41e5-90b0-92f44a30a430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\com\android\gl2jni">
+      <UniqueIdentifier>{59b3890b-02a8-41bc-a0f8-76b96f31ab15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\NVPACK\android-ndk-r10e\samples\hello-gl2\jni\Android.mk">
+      <Filter>jni</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\NVPACK\android-ndk-r10e\samples\hello-gl2\jni\Application.mk">
+      <Filter>jni</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\..\NVPACK\android-ndk-r10e\samples\hello-gl2\jni\gl_code.cpp">
+      <Filter>jni</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\..\..\..\..\..\NVPACK\android-ndk-r10e\samples\hello-gl2\res\values\strings.xml">
+      <Filter>res\values</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <JCompile Include="..\..\..\..\..\..\..\NVPACK\android-ndk-r10e\samples\hello-gl2\src\com\android\gl2jni\GL2JNIActivity.java">
+      <Filter>src\com\android\gl2jni</Filter>
+    </JCompile>
+    <JCompile Include="..\..\..\..\..\..\..\NVPACK\android-ndk-r10e\samples\hello-gl2\src\com\android\gl2jni\GL2JNILib.java">
+      <Filter>src\com\android\gl2jni</Filter>
+    </JCompile>
+    <JCompile Include="..\..\..\..\..\..\..\NVPACK\android-ndk-r10e\samples\hello-gl2\src\com\android\gl2jni\GL2JNIView.java">
+      <Filter>src\com\android\gl2jni</Filter>
+    </JCompile>
+  </ItemGroup>
+</Project>
