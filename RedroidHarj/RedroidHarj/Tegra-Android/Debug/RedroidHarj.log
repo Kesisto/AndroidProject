@@ -1,42 +1,42 @@
-﻿Build started 4.11.2015 10:24:46.
+﻿Build started 4.11.2015 11:07:43.
      1>Project "C:\Users\lassikes\Documents\VS\Projects\RedroidHarj\RedroidHarj\RedroidHarj.vcxproj" on node 2 (Build target(s)).
      1>NdkBuild:
          C:\NVPACK\android-ndk-r10e\ndk-build.cmd NDK_DEBUG=1 --jobs=4  NDK_APP_OUT=../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug/ NDK_APP_PROJECT_PATH=../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug/ NDK_APP_LIBS_OUT=../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs 
+         [mips64] Compile++      : gl2jni <= gl_code.cpp
          [arm64-v8a] Compile++      : gl2jni <= gl_code.cpp
          [x86_64] Compile++      : gl2jni <= gl_code.cpp
-         [mips64] Compile++      : gl2jni <= gl_code.cpp
          [armeabi-v7a] Compile++ thumb: gl2jni <= gl_code.cpp
-         [x86] Compile++      : gl2jni <= gl_code.cpp
          [armeabi] Compile++ thumb: gl2jni <= gl_code.cpp
          [mips] Compile++      : gl2jni <= gl_code.cpp
+         [x86] Compile++      : gl2jni <= gl_code.cpp
          [arm64-v8a] Gdbserver      : [aarch64-linux-android-4.9] ../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs/arm64-v8a/gdbserver
          [arm64-v8a] Gdbsetup       : ../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs/arm64-v8a/gdb.setup
-         [x86_64] Gdbserver      : [x86_64-4.9] ../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs/x86_64/gdbserver
          [x86_64] Gdbsetup       : ../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs/x86_64/gdb.setup
+         [x86_64] Gdbserver      : [x86_64-4.9] ../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs/x86_64/gdbserver
          [mips64] Gdbserver      : [mips64el-linux-android-4.9] ../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs/mips64/gdbserver
          [mips64] Gdbsetup       : ../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs/mips64/gdb.setup
-         [armeabi-v7a] Gdbsetup       : ../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs/armeabi-v7a/gdb.setup
          [armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.9] ../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs/armeabi-v7a/gdbserver
+         [armeabi-v7a] Gdbsetup       : ../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs/armeabi-v7a/gdb.setup
          [armeabi] Gdbserver      : [arm-linux-androideabi-4.9] ../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs/armeabi/gdbserver
          [armeabi] Gdbsetup       : ../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs/armeabi/gdb.setup
-         [x86] Gdbsetup       : ../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs/x86/gdb.setup
          [x86] Gdbserver      : [x86-4.9] ../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs/x86/gdbserver
+         [x86] Gdbsetup       : ../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs/x86/gdb.setup
          [mips] Gdbserver      : [mipsel-linux-android-4.9] ../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs/mips/gdbserver
-         [mips] Gdbsetup       : ../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs/mips/gdb.setup
          [arm64-v8a] SharedLibrary  : libgl2jni.so
+         [mips] Gdbsetup       : ../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs/mips/gdb.setup
          [x86_64] SharedLibrary  : libgl2jni.so
-         [mips64] SharedLibrary  : libgl2jni.so
          [armeabi-v7a] SharedLibrary  : libgl2jni.so
+         [mips64] SharedLibrary  : libgl2jni.so
          [armeabi] SharedLibrary  : libgl2jni.so
          [x86] SharedLibrary  : libgl2jni.so
-         [mips] SharedLibrary  : libgl2jni.so
-         [x86_64] Install        : libgl2jni.so => ../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs/x86_64/libgl2jni.so
-         [mips64] Install        : libgl2jni.so => ../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs/mips64/libgl2jni.so
          [arm64-v8a] Install        : libgl2jni.so => ../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs/arm64-v8a/libgl2jni.so
+         [x86_64] Install        : libgl2jni.so => ../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs/x86_64/libgl2jni.so
+         [mips] SharedLibrary  : libgl2jni.so
+         [mips64] Install        : libgl2jni.so => ../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs/mips64/libgl2jni.so
          [armeabi-v7a] Install        : libgl2jni.so => ../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs/armeabi-v7a/libgl2jni.so
+         [armeabi] Install        : libgl2jni.so => ../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs/armeabi/libgl2jni.so
          [x86] Install        : libgl2jni.so => ../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs/x86/libgl2jni.so
          [mips] Install        : libgl2jni.so => ../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs/mips/libgl2jni.so
-         [armeabi] Install        : libgl2jni.so => ../../../../Users/lassikes/Documents/VS/Projects/RedroidHarj/RedroidHarj/Tegra-Android/Debug//libs/armeabi/libgl2jni.so
        StripLibrary:
          C:\NVPACK\android-ndk-r10e\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-strip.exe --strip-unneeded -o"C:\Users\lassikes\Documents\VS\Projects\RedroidHarj\Tegra-Android\Debug\stripped_libRedroidHarj" "C:\Users\lassikes\Documents\VS\Projects\RedroidHarj\Tegra-Android\Debug\libRedroidHarj"
        AntBuild:
@@ -153,4 +153,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:07.22
+Time Elapsed 00:00:07.28
